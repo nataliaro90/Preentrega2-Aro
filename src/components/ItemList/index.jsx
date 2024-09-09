@@ -12,7 +12,7 @@ const ItemList = () => {
   }, []);
 
   return(
-    <section className="items--container container">
+    <section className="items-container">
       {items.map(item => <Item {...item} tag="NUEVO"/>)}
     </section>
   );

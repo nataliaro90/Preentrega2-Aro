@@ -8,6 +8,7 @@
 @import './conteiners/Header/index.css';
 @import './components/Item/index.css';
 @import './components/ItemDetail/index.css';
+@import './components/ItemList/index.css';
 @import './pages/Home/index.css';
 @import './components/Footer/index.css'
 

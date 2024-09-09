@@ -1,111 +1,109 @@
 .item-detail {
-    display: flex; /* Usa flexbox para organizar el contenido */
-    flex-direction: column; /* Organiza los elementos en columna */
-    align-items: center; /* Centra los elementos horizontalmente */
-    padding: 20px; /* Espaciado interno alrededor del componente */
-    max-width: 800px; /* Ancho máximo para el detalle del item */
-    margin: auto; /* Centra el componente horizontalmente */
-    border: 1px solid #ddd; /* Borde alrededor del componente */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para darle profundidad */
-    background-color: #fff; /* Fondo blanco para el componente */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px; 
+    max-width: 800px; 
+    margin: auto; 
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
 }
 
-/* Estilo para la imagen del item */
-.item-detail__picture {
-    width: 100%; /* Ancho completo del contenedor */
-    max-width: 500px; /* Ancho máximo para la imagen */
-    height: auto; /* Altura automática para mantener la proporción */
-    margin-bottom: 20px; /* Espaciado inferior */
-    display: flex; /* Usa flexbox para centrar la imagen */
-    justify-content: center; /* Centra la imagen horizontalmente */
+.item-detail-picture {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+    margin-bottom: 20px; 
+    display: flex; 
+    justify-content: center; 
 }
 
-.item-detail__picture img {
-    max-width: 100%; /* Ancho máximo de la imagen dentro del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    object-fit: contain; /* Ajusta la imagen al contenedor sin recortes */
-    display: block; /* Elimina el espacio debajo de la imagen */
+.item-detail-picture img {
+    max-width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+    display: block; 
 }
 
-/* Estilo para la información del item */
-.item-detail__info {
-    text-align: center; /* Centra el texto */
+.item-detail-info {
+    text-align: center; 
 }
 
-.item-detail__info--licence {
-    font-size: 1rem; /* Tamaño de fuente para la categoría */
-    color: #777; /* Color de texto para la categoría */
-    margin-bottom: 10px; /* Espaciado inferior */
+.item-detail-info-category {
+    font-size: 1rem; 
+    color: #777; 
+    margin-bottom: 10px;
 }
 
-.item-detail__info--name {
-    font-size: 1.5rem; /* Tamaño de fuente para el nombre del item */
-    color: #333; /* Color de texto para el nombre del item */
-    margin-bottom: 10px; /* Espaciado inferior */
+.item-detail-info-name {
+    font-size: 1.5rem; 
+    color: #333; 
+    margin-bottom: 10px; 
 }
 
-.item-detail__info--description {
-    font-size: 1rem; /* Tamaño de fuente para la descripción */
-    color: #555; /* Color de texto para la descripción */
-    margin-bottom: 20px; /* Espaciado inferior */
+.item-detail-info-description {
+    font-size: 1rem; 
+    color: #555; 
+    margin-bottom: 20px; 
 }
 
-.item-detail__info--price {
-    font-size: 1.25rem; /* Tamaño de fuente para el precio */
-    color: #007bff; /* Color de texto para el precio */
-    margin-bottom: 20px; /* Espaciado inferior */
+.item-detail-info-price {
+    font-size: 1.25rem; 
+    color: #007bff;
+    margin-bottom: 20px; 
 }
 
-/* Estilo para el formulario */
-.item-detail__form {
-    display: flex; /* Usa flexbox para el formulario */
-    flex-direction: column; /* Organiza los elementos en columna */
-    align-items: center; /* Centra los elementos horizontalmente */
-    gap: 10px; /* Espacio entre los elementos del formulario */
+
+.item-detail-form {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    gap: 10px; 
 }
 
-.item-detail__form--container {
-    display: flex; /* Usa flexbox para el contenedor de los botones */
-    align-items: center; /* Centra los elementos verticalmente */
-    gap: 10px; /* Espacio entre los botones y el input */
+.item-detail-form-container {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
 }
 
-.item-detail__form--btn {
-    background-color: #007bff; /* Color de fondo de los botones */
-    color: #fff; /* Color del texto de los botones */
-    border: none; /* Sin borde para los botones */
-    border-radius: 4px; /* Bordes redondeados para los botones */
-    padding: 10px 15px; /* Espaciado interno de los botones */
-    font-size: 1rem; /* Tamaño de fuente de los botones */
-    cursor: pointer; /* Cursor en forma de mano para indicar clickeable */
-    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+.item-detail-form-btn {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 10px 15px; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
 }
 
-.item-detail__form--btn:hover {
-    background-color: #0056b3; /* Color de fondo al pasar el cursor por encima */
+.item-detail-form-btn:hover {
+    background-color: #0056b3;
 }
 
-.item-detail__form--input {
-    width: 60px; /* Ancho del input */
-    padding: 10px; /* Espaciado interno del input */
-    border: 1px solid #ddd; /* Borde del input */
-    border-radius: 4px; /* Bordes redondeados del input */
-    font-size: 1rem; /* Tamaño de fuente del input */
-    text-align: center; /* Centra el texto en el input */
+.item-detail0-form-input {
+    width: 60px; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    font-size: 1rem; 
+    text-align: center; 
 }
 
-.item-detail__form--submit {
-    background-color: #28a745; /* Color de fondo del botón de submit */
-    color: #fff; /* Color del texto del botón de submit */
-    border: none; /* Sin borde para el botón de submit */
-    border-radius: 4px; /* Bordes redondeados para el botón de submit */
-    padding: 12px 20px; /* Espaciado interno del botón de submit */
-    font-size: 1rem; /* Tamaño de fuente del botón de submit */
-    cursor: pointer; /* Cursor en forma de mano para indicar clickeable */
-    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+.item-detail-form-submit {
+    background-color: #28a745; 
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 12px 20px; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
 }
 
-.item-detail__form--submit:hover {
-    background-color: #218838; /* Color de fondo al pasar el cursor por encima */
+.item-detail-form-submit:hover {
+    background-color: #218838;
 }

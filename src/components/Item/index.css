@@ -1,73 +1,59 @@
-/* Contenedor de los items */
-.items-container {
-    display: grid; /* Utiliza CSS Grid para el contenedor */
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Crea columnas flexibles con un ancho mínimo de 250px */
-    gap: 15px; /* Espacio entre los items en la grilla */
-    padding: 15px; /* Espaciado interno del contenedor */
-}
-
-/* Estilo general del artículo del item */
 .item {
-    background-color: #ffffff; /* Color de fondo del item */
-    border: 1px solid #ddd; /* Borde ligero alrededor del item */
-    border-radius: 5px; /* Bordes redondeados para el item */
-    overflow: hidden; /* Oculta el desbordamiento de contenido */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera para el item */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves para efectos de hover */
-    text-align: center; /* Centra el texto en el item */
-    max-width: 250px; /* Ancho máximo del item */
+    background-color: #f5eff3;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 100%; 
+    padding: 20px;
+    box-sizing: border-box; 
+    overflow: hidden; 
 }
 
-/* Estilo para la imagen del item */
-.item__picture {
-    position: relative; /* Permite posicionar el tag sobre la imagen */
-    width: 100%; /* Ajusta el ancho del contenedor de la imagen al del item */
-    height: 150px; /* Altura fija para la imagen */
-    overflow: hidden; /* Oculta el contenido que se desborda */
+.item-picture {
+    position: relative;
+    width: 100%;
+    height: 150px; 
+    overflow: hidden; 
 }
 
-.item__picture img {
-    width: 100%; /* Ajusta la imagen al ancho del contenedor */
-    height: 100%; /* Ajusta la altura al contenedor */
-    object-fit: cover; /* Cubre el contenedor sin distorsionar la imagen */
+.item-picture img {
+    width: 70%; 
+    height: 40%;
+    object-fit: cover;
 }
 
-/* Estilo para el tag sobre la imagen */
-.item__picture--pill {
+.item-picture--pill {
     position: absolute;
     top: 10px;
     left: 10px;
-    background-color: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente para el tag */
-    color: #fff; /* Color del texto del tag */
-    border-radius: 3px; /* Bordes redondeados para el tag */
-    padding: 5px 10px; /* Espaciado interno del tag */
-    font-size: 0.8rem; /* Tamaño de fuente del tag */
+    background-color: rgba(240, 136, 165, 0.6);
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 10px; 
+    font-size: 0.8rem;
 }
 
-/* Estilo para la información del item */
-.item__info {
-    padding: 15px; /* Espaciado interno del contenedor de información */
+.item-info {
+    padding: 15px;
+    color: #0ead8d;
 }
 
-.item__info--title {
-    font-size: 1rem; /* Tamaño de fuente del título de la categoría */
-    color: #666; /* Color del texto del título de la categoría */
-    margin-bottom: 5px; /* Espaciado inferior del título de la categoría */
+.item-info--title {
+    font-size: 1rem; 
+    margin-bottom: 5px;
 }
 
-.item__info--item {
-    font-size: 1.1rem; /* Tamaño de fuente del título del item */
-    color: #333; /* Color del texto del título del item */
-    margin-bottom: 10px; /* Espaciado inferior del título del item */
+.item-info--item {
+    font-size: 1.1rem; 
+    margin-bottom: 10px;
 }
 
-.item__info--price {
-    font-size: 1rem; /* Tamaño de fuente del precio */
-    color: #007bff; /* Color del precio */
-    margin-bottom: 5px; /* Espaciado inferior del precio */
+.item-info--price {
+    font-size: 1rem; 
+    margin-bottom: 5px; 
 }
 
-.item__info--dues {
-    font-size: 0.9rem; /* Tamaño de fuente de las cuotas */
-    color: #666; /* Color del texto de las cuotas */
+.item-info--dues {
+    font-size: 1.5rem; 
+    color: #0a37ab; 
 }
