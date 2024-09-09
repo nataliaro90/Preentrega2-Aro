@@ -1,0 +1,43 @@
+import { createContext, useContext, useState } from "react";
+
+// Creamos el contexto del carrito
+const CartContext = createContext();
+
+// Hook personalizado para acceder al contexto del carrito
+export const useCart = () => {
+    return useContext(CartContext);
+};
+
+// Proveedor del carrito que envuelve la aplicación
+export const CartProvider = ({ children }) => {
+    const [cart, setCart] = useState([]);
+
+    // Función para agregar un producto al carrito
+    const addToCart = (item, quantity) => {
+        setCart((prevCart) => {
+            const existingItem = prevCart.find(cartItem => cartItem.id === item.id);
+            if (existingItem) {
+                // Si el producto ya está en el carrito, actualizamos la cantidad
+                return prevCart.map(cartItem =>
+                    cartItem.id === item.id
+                        ? { ...cartItem, quantity: cartItem.quantity + quantity }
+                        : cartItem
+                );
+            } else {
+                // Si el producto no está en el carrito, lo agregamos
+                return [...prevCart, { ...item, quantity }];
+            }
+        });
+    };
+
+    // Función para obtener la cantidad total de productos en el carrito
+    const getTotalQuantity = () => {
+        return cart.reduce((total, item) => total + item.quantity, 0);
+    };
+
+    return (
+        <CartContext.Provider value={{ cart, addToCart, getTotalQuantity }}>
+            {children}
+        </CartContext.Provider>
+    );
+};

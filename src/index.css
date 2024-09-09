@@ -1,0 +1,13 @@
+@import './styles/reset.css';
+@import './styles/shared.css';
+
+@import './components/Menu/index.css';
+@import './components/CartWitdget/index.css';
+@import './components/Pill/index.css';
+@import './components/LinkButton/index.css';
+@import './conteiners/Header/index.css';
+@import './components/Item/index.css';
+@import './components/ItemDetail/index.css';
+@import './pages/Home/index.css';
+@import './components/Footer/index.css'
+

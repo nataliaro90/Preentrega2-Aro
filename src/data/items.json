@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "category": "Cacerolas",
+        "size": "24cm",
+        "title": "Cacerola 24Cm",
+        "color": "Terra, Cappri o Cherry",
+        "img": "src/assets/images/item/cacerola24cm-terra.webp",
+        "price": 500000,
+        "description": "Descripción del producto.",
+        "specifications": "Especificaciones: Material antiadherente, apta para todo tipo de cocinas."
+    },
+
+{
+"id": 2,
+"category": "Cacerolas",
+"size": "29cm",
+"title": "Cacerola Cuadrada 29cm",
+"color": "Terra",
+"img": "src/assets/images/item/cuadrada29cm-terra.webp",
+"price": 500000,
+"detalle": 10
+},
+
+{
+"id": 3,
+"category": "Sartenes",
+"size": "24cm",
+"title": "Sarten 24Cm",
+"color": "Cherry",
+"img": "src/assets/images/item/sarten24cm-cherry.webp",
+"price": 500000,
+"stock": 10
+},
+
+{
+"id": 4,
+"category": "Sartenes",
+"size": "28cm",
+"title": "Sarten 28Cm",
+"color": "Capri",
+"img": "src/assets/images/item/sarten28cm-cappri.webp",
+"price": 500000,
+"stock": 10
+},
+
+{
+"id": 5,
+"category": "Flip",
+"size": "22cm",
+"title": "Flip 2.1",
+"color": "Capri",
+"img": "src/assets/images/item/flip2.1.webp",
+"price": 500000,
+"stock": 10
+},
+{
+"id": 6,
+"category": "Flip",
+"size": "24cm",
+"title": "Flip Nuit",
+"color": "Nuit",
+"img": "src/assets/images/item/flip-nuit.webp",
+"price": 500000,
+"stock": 10
+
+}
+]

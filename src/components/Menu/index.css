@@ -1,0 +1,11 @@
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.menu-item:hover {
+    background-color: rgb(196, 240, 213);
+    border-radius: 3px;
+    
+}
