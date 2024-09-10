@@ -2,13 +2,11 @@
     {
         "id": 1,
         "category": "Cacerolas",
-        "size": "24cm",
         "title": "Cacerola 24Cm",
         "color": "Terra, Cappri o Cherry",
         "img": "src/assets/images/item/cacerola24cm-terra.webp",
-        "price": 500000,
-        "description": "Descripción del producto.",
-        "specifications": "Especificaciones: Material antiadherente, apta para todo tipo de cocinas."
+        "price": 348670,
+        "description": "Estas Cacerolas son las más vendidas de nuestra línea de productos y gracias a los complementos que hemos desarrollado, permiten disfrutar de todas las funciones y beneficios de las piezas Essen. Son una excelente opción ya que se adaptan a una familia de entre 4 y 5 integrantes resolviendo absolutamente todas las posibilidades de preparaciones y cocciones tanto dulces como saladas: desde tortas a panes, carnes, cazuelas, guisados y sopas, etc. Además tienen la opción de incorporar complementos: savarín, vaporizador, cestillo freidor. En conjunto con la Sartén de 24cm y la Bifera, otorgan una solución para desarrollar los menús más completos de forma práctica, rica y saludable."
     },
 
 {
@@ -16,10 +14,10 @@
 "category": "Cacerolas",
 "size": "29cm",
 "title": "Cacerola Cuadrada 29cm",
-"color": "Terra",
+"color": "Terra, Cappri o Cherry",
 "img": "src/assets/images/item/cuadrada29cm-terra.webp",
-"price": 500000,
-"detalle": 10
+"price": 53030,
+"description": "Su capacidad se destaca ya que permite desarrollar cocciones para entre 6 y 8 comensales. Su forma cuadrada permite acomodar perfectamente porciones grandes de carne y guarniciones de forma muy sencilla. Además, por la amplitud de sus medidas facilita la manipulación de los ingredientes durante la cocción. Incorporando las Budineras para cacerolas cuadradas,  podrás preparar  budines, terrinas, panes etc. de forma elegante, rica y fácil."
 },
 
 {
@@ -27,10 +25,10 @@
 "category": "Sartenes",
 "size": "24cm",
 "title": "Sarten 24Cm",
-"color": "Cherry",
+"color": "Terra, Cappri o Cherry",
 "img": "src/assets/images/item/sarten24cm-cherry.webp",
-"price": 500000,
-"stock": 10
+"price": 331090,
+"description": "En esta Sartén podrá realizar recetas para compartir con 4 o 5 comensales. En conjunto con la Cacerola con asas de 24 cm (diámetro) y la Bifera, son un equipo ideal para satisfacer las necesidades de la cocina de matrimonios jóvenes con hijos pequeños, ya que sus capacidades son óptimas para alimentar a una familia promedio de 4 integrantes. Podrá lucirse con la cocción de: tortas, tartas, carnes, pescados, verduras rellenas, salsas, etc."
 },
 
 {
@@ -38,10 +36,10 @@
 "category": "Sartenes",
 "size": "28cm",
 "title": "Sarten 28Cm",
-"color": "Capri",
+"color": "Terra, Cappri o Cherry",
 "img": "src/assets/images/item/sarten28cm-cappri.webp",
-"price": 500000,
-"stock": 10
+"price": 427780,
+"description": "Estas sartenes ofrecen un amplio volumen, permitiendo la realización de platos y cocciones para familias de entre 5 y 6 integrantes. El diseño facilita los desmoldes, las asas y el mango ayudan a manejar el producto con mayor seguridad durante las cocciones.Se pueden realizar una amplia variedad de cocciones cómo tortillas, omelettes, tortas, pizzetas, pescados, verduras rellenas, salsas, etc."
 },
 
 {
@@ -49,11 +47,12 @@
 "category": "Flip",
 "size": "22cm",
 "title": "Flip 2.1",
-"color": "Capri",
+"color": "Terra, Cappri o Cherry",
 "img": "src/assets/images/item/flip2.1.webp",
-"price": 500000,
-"stock": 10
+"price": 401410,
+"description": "La nueva ESSEN FLIP 2.1 presenta una renovada y cuidadosa estética con un recubrimiento más oscuro. Conserva las cualidades únicas que la han hecho imprescindible, aporta estilo y elegancia, alineada al resto de los productos que conforman la línea. La FLIP 2.1 te permite preparar gran cantidad de recetas gracias a su multifuncionalidad. A su vez, tiene 2 cuerpos de capacidad diferente que te permiten cocinar infinitas posibilidades. Tiene una capacidad de 2 litros, ideal para dos comensales, y posee recubrimiento antiadherente interior y exterior NOVA TRIMIUM de máxima antiadherencia, resistencia y fácil limpieza. Además, posee un mango con cierre traba dial, que logra un cierre seguro y permite realizar un giro 'flip' firme.  La innovación en su sistema de bisagras, permite una mayor facilidad en el desmolde y la limpieza."
 },
+
 {
 "id": 6,
 "category": "Flip",
@@ -61,8 +60,7 @@
 "title": "Flip Nuit",
 "color": "Nuit",
 "img": "src/assets/images/item/flip-nuit.webp",
-"price": 500000,
-"stock": 10
-
+"price": 380900,
+"description": "Nueva Flip Redonda: Sartén doble revolucionaria con función 'flip'. Cocina más rápido y saludable con su diseño único y recubrimiento antiadherente NOVA TRIMIUM. Versátil, fácil de usar y limpiar. Capacidad: 2,12L."
 }
 ]

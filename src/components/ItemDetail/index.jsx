@@ -1,4 +1,4 @@
-const ItemDetail = ({ name, img, price, description, category}) => {
+const ItemDetail = ({title, img, price, description, category, color}) => {
     return (
     <section className="item-detail">
         <picture className="item-detail-picture">
@@ -7,9 +7,10 @@ const ItemDetail = ({ name, img, price, description, category}) => {
 
         <article className="item-detail-info">
             <p className="item-detail-info-category">{category}</p>
-            <h2 className="item-detail-info-name">{name}</h2>
+            <h2 className="item-detail-info-name">{title}</h2>
             <p className="item-detail-info-description">{description}</p>
             <p className="item-detail-info-price">$ {price}</p>
+            <p className="item-detail-info-coulor"> {color}</p>
             <form className="item-detail-form" action="" method="POST" encType="application/x-www-form-urlencoded">
                 <div className="item-detail-form-container">
                     <button className="item-detail-form-btn" type="button">-</button>
