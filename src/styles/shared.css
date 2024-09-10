@@ -8,6 +8,13 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+@font-face{
+    font-family: 'Montserrat',;
+    src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf,);
+    font-family: 'Roboto';
+    src: url(../assets/fonts/RobotoCondensed-VariableFont_wght.ttf);
+}
+
 
 body {
     background-color: antiquewhite;
@@ -15,12 +22,11 @@ body {
 }
 
 h1 {
-    font-size: 3.2em;
+    font-family: Roboto;
     line-height: 1.1;
 }
 
-a {
-    color: rgb(71, 147, 122);
+a, p, h2, h3, h4, h5 {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
 
@@ -28,5 +34,4 @@ a {
 
 li, menu {
     list-style: none;
-
 }

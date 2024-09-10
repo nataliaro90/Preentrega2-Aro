@@ -2,10 +2,14 @@
 .menu {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
+}
+.menu-item {
+    color: aqua;
 }
 .menu-item:hover {
-    background-color: rgb(196, 240, 213);
+    padding: 8px;
+    background-color: rgb(220, 243, 228);
     border-radius: 3px;
     
 }

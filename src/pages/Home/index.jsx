@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-      <section className="home-section">
+      <section className="home">
           <h2>Bienvenidos a Sensaciones Essen</h2>
           <p>
               ¿Por qué elegir Essen?

@@ -1,12 +1,10 @@
 .item {
-    background-color: #f5eff3;
-    border: 1px solid #ddd;
+    background-color: #dfe9d2;
+    border: 1px solid #bcdfc0;
     border-radius: 5px;
     text-align: center;
     max-width: 100%; 
-    padding: 20px;
-    box-sizing: border-box; 
-    overflow: hidden; 
+    padding: 10px; 
 }
 
 .item-picture {
@@ -17,20 +15,9 @@
 }
 
 .item-picture img {
-    width: 70%; 
+    width: 60%;
     height: 40%;
-    object-fit: cover;
-}
-
-.item-picture--pill {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: rgba(240, 136, 165, 0.6);
-    color: #fff;
-    border-radius: 3px;
-    padding: 5px 10px; 
-    font-size: 0.8rem;
+    object-fit:contain;
 }
 
 .item-info {
@@ -39,21 +26,21 @@
 }
 
 .item-info--title {
-    font-size: 1rem; 
+    font-size: 15px; 
     margin-bottom: 5px;
 }
 
 .item-info--item {
-    font-size: 1.1rem; 
+    font-size: 25px; 
     margin-bottom: 10px;
 }
 
 .item-info--price {
-    font-size: 1rem; 
+    font-size: 20px; 
     margin-bottom: 5px; 
 }
 
 .item-info--dues {
-    font-size: 1.5rem; 
+    font-size: 15px; 
     color: #0a37ab; 
 }

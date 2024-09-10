@@ -1,7 +1,7 @@
 const LinkButton = ({ className, label, href = '#' }) => {
 
     return (
-            <a className={`link-button ${className}__link-button`} href={href}>{label}</a>
+            <a className={`link-button ${className}link-button`} href={href}>{label}</a>
     );
 };
 
