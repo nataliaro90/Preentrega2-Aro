@@ -3,6 +3,7 @@ import BaseLayout from "./layout/BaseLayout"
 import Home from './pages/Home' 
 import Store from './pages/Store'
 import Detail from './pages/Detail'
+import Contact from './pages/Contact'
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home />}/>
           <Route exact path='/store' element={<Store />}/>
-          <Route exact path='/store/:id' element={<Store />}/>
           <Route exact path='/detalle/:id' element={<Detail />}/>
+          <Route exact path='/contacto' element={<Contact/>}/>
         </Routes>
       </BaseLayout>
     </BrowserRouter>

@@ -9,5 +9,6 @@
 @import './components/ItemDetail/index.css';
 @import './components/ItemList/index.css';
 @import './pages/Home/index.css';
-@import './components/Footer/index.css'
+@import './components/Footer/index.css';
+@import './pages/Contact/index.css'
 

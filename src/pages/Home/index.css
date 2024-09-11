@@ -3,6 +3,11 @@
     padding: 20px;
     margin: 20px auto;
     max-width: 1200px;
-    background-color: #f9f9f9;
+    color: rgb(86, 80, 80);
+    background-color: #dcbfda;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img-home {
+    border-radius: 5px;
 }
